@@ -1246,10 +1246,7 @@ class Speedtest(object):
                     )
 
         urls = [
-            '://www.speedtest.net/speedtest-servers-static.php',
-            'http://c.speedtest.net/speedtest-servers-static.php',
-            '://www.speedtest.net/speedtest-servers.php',
-            'http://c.speedtest.net/speedtest-servers.php',
+            'https://gist.github.com/ghhhfq/711cb8f1abdc9157920a1b01d748ef26/raw/6d21d6d7662d050016e7ae259e8afc5d91a7ce6f/speedtest-servers-static.xml',
         ]
 
         headers = {}
